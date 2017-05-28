@@ -14,6 +14,7 @@ public class Test1 {
 		driver.findElement(By.name("userName")).sendKeys("tutorial");
 		driver.findElement(By.name("password")).sendKeys("tutorial");
 		driver.close();
+		driver.close();
 	}
 
 }
